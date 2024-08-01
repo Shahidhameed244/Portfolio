@@ -1,0 +1,326 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.navigation_container {
+    height: 90vh;
+    background-color: #212429;
+    padding:20px 20px;
+
+}
+.logo {
+    place-content: center;
+}
+.logo_details{
+    color:white;    
+}
+    .logo_details span {
+        color: #e6044b;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+.navigationbar{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.items{
+    display:contents;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.items ul{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+    .items ul li{
+        padding-left:20px;
+        padding-right:20px;
+    }
+        .items ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 200;
+            color: #d5d7d9;
+        }
+            .items ul li a:active {
+                color: #df074a;
+            }
+    .items button {
+        background-color: #ff014f;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 0px 4px 15px rgb(255 1 79);
+        cursor: pointer;
+        padding: 13px 23px;
+        transition:0.5s ease-in;
+        margin-left: 35px;
+    }
+/*Main Container*/
+
+
+
+
+
+
+
+.main {
+    margin-top:40px;  
+    padding-top:50px;
+    display: flex;
+    height: 50vh; /* Full height of the viewport */
+}
+
+
+.details_panel {
+    background-color: #212429; /* Optional: for visual separation */
+    width: 70%;
+    transform: translate(-3%, 20%);
+ /*   position: absolute;*/
+    justify-content: center;
+}
+    .details_panel h4 {
+        color: white;
+        top: 100%;
+        left: 0;
+        transform: translate(10%,600%);
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+    .details_panel h2 {
+        color: white;
+        top: 100%;
+        left: 0;
+        margin-bottom: 20px;
+        padding-top:20px;
+        transform: translate(10%,100%);
+        font-weight: 600;
+    }
+    .details_panel p {
+        color: white;
+        top: 100%;
+        left: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-top: 25px;
+        transform: translate(10%,120%);
+        font-weight: 200;
+        color: #d5d7d9;
+    }
+    .details_panel span {
+        color: #e6044b;
+        font-size: 50px;
+    }
+
+.right_side {
+    width: 30%;
+    background-color: #212429;
+    border: none;
+    padding-left:40px;
+    margin-right:30px;
+    border-radius: 10px;
+    height: 59vh;
+    box-shadow: 0px 4px 15px rgb(129 129 129);
+    /* Optional: for visual separation */
+}
+
+    .right_side  img {
+        height: 70vh;
+        margin-top: -105px;
+    }
+.cont {
+       
+    display: flex;
+    padding: 0 50px;
+    background-color: #212429;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.find_me {
+    display: flex;
+    padding: 0 71px;
+    padding-bottom  :20px;
+}
+    .find_me .my_img {
+        height: 50vh;
+        border: none;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px rgb(129 129 129);
+        background-color: #212429;
+    }
+    .find_me .my_img img{
+        height:50vh;
+    }
+.aboutme {
+
+padding:0 30px;
+}
+.aboutme h2{
+    font-size:30px;  
+    color:white;
+}
+    .aboutme p {
+        font-size: 24px;
+        font-weight:200;
+        line-height: 38px;
+        color: #d5d7d9;
+        margin-top: 16px;
+    }
+    .aboutme button {
+        background-color: #ff014f;
+        padding: 10px;
+        border: none;
+        text-transform: uppercase;
+        margin-top: 16px;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 4px 15px rgb(255 1 79);
+        padding: 13px 23px;
+    }
+.contact {
+    background-color: #212429;
+    padding: 20px 0;
+}
+.contact h2 {
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+
+}
+.shead {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.form {
+    display: grid;
+
+}
+    .form input {
+        background-color: #212429;
+        box-sizing: border-box;
+        width:400px;
+        margin: 10px;
+        border: none;
+        box-shadow: 0px 4px 15px rgb(129 129 129);
+        border-radius: 8px;
+        padding: 10px 20px;
+    }
+.mes input {
+    height:20vh;
+    width:450px;
+    background-color: #212429;
+    box-sizing: border-box;
+    margin: 10px;
+    border: none;
+    box-shadow: 0px 4px 15px rgb(129 129 129);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.btn {
+    text-align: center;
+    margin:40px 0px;
+}
+    .btn button {
+        box-sizing: border-box;
+        padding: 10px 20px;
+        background-color: #ff014f;
+        padding: 10px;
+        border: none;
+        text-transform: uppercase;
+        margin-top: 16px;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 0px 4px 15px rgb(255 1 79);
+        padding: 13px 23px;
+        cursor:pointer;
+    }
+.info{
+    margin-bottom:30px;
+}
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30%;
+    justify-content: center;
+}
+.cols h5 {
+    color: #d5d7d9;
+}
+.cols i{
+    display:flex;
+    padding:20px;
+   justify-content:center;
+
+}
+.fa-whatsapp {
+    font-size:30px;
+    color: green;
+}
+
+.fa-map-marker-alt {
+    font-size: 30px;
+    color: blue;
+}
+
+.fa-envelope {
+    font-size: 30px;
+    color: red;
+}
+.projects{
+    margin-top:40px;
+}
+.p_rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 20px;
+    column-gap: 90px;
+}
+.p_cols {
+    margin-top: 36px;
+    height: 30vh;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease-in;
+    box-shadow: 0px 4px 15px rgb(129 129 129);
+}
+.p_cols:hover{
+    transition:0.5s ease-in;
+    padding:5px;
+}
+.p_cols h2{
+    padding:10px 10px;
+}
+    .p_cols ul {
+        text-align: center;
+        color: #d5d7d9;
+        list-style:none;
+
+    }
+    .p_cols ul li{
+        text-align: center;
+        color: #d5d7d9;
+        padding:5px 0px;
+    }
